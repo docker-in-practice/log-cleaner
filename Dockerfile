@@ -1,4 +1,4 @@
-FROM ubuntu:14.04
+FROM ubuntu:17.04
 ADD clean_log /usr/bin/clean_log   
 RUN chmod +x /usr/bin/clean_log    
 ENTRYPOINT ["/usr/bin/clean_log"]  
